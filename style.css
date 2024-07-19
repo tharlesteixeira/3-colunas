@@ -1,75 +1,70 @@
-@charset "utf-8";
-
-*{
-   
-}
-
-.content{
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     display: flex;
-    width: 98vw;
-    height: 90vh;
-    justify-content: center;
     align-items: center;
-    flex-flow: row nowrap;
-}
-
-.sedans, .luxury, .suvs{
-    height: 400px;
-    width: 300px;
-}
-    
-    
-
-h1{
-    color: white;
-    margin-top: 70px;
-}
-
-p{
-    color: white;
-    margin-top: 30px;  
-}
-
-button{
-    width: 115px;
-    height: 40px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    border-radius: 20px;
-    border: white;
-}
-.link1{
-    color: #E38523;
-}
-.link2{
-    color: #026973;
-}
-.link3{
-    color: #013F3C;
-}
-a{
-    text-decoration: none;
-}
-
-
-.item{
-    width: 200px;
-    height: 70%;
-    margin-left: 30px;
-}
-
-.sedans{
-    background-color: #E38523;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.suvs{
-    background-color: #026973;
-}
-
-.luxury{
-    background-color: #013F3C;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+    justify-content: center;
+    }
+    h1{
+        font-family:"Big Shoulders Display", sans-serif; 
+        size: 35px;
+        font-weight: 700;
+        color: #F2F2F2;
+        margin-top: 60px;
+    }
+    h2{
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #F2F2F2;
+    }
+    .conteiner{
+        display: flex;
+        width: 45vw;
+        height: 50vh;
+    }
+    main{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .sedans, .suvs, .luxury{
+       padding: 30px;
+       flex-direction: column;
+       flex: 1;
+    }
+    .sedans{
+        background-color: #E38826;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .suvs{
+        background-color: #006970;
+    }
+    .luxury{
+        background-color: #004241;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    button{
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 600;
+        width: 120px;
+        height: 40px;
+        border: 0;
+        padding: 5px;
+        margin-top: auto;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .bt1{
+        color: #E38826;
+        padding: 10px;
+    }
+    .bt2{
+        color: #006970;
+    }
+    .bt3{
+        color: #004241;
+    }
