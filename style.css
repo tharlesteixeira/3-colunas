@@ -33,10 +33,10 @@ p{
 button{
     width: 115px;
     height: 40px;
-   margin-left: 50px;
-   margin-bottom: 0px;
-   border-radius: 20px;
-   border: white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border: white;
 }
 .link1{
     color: #E38523;
