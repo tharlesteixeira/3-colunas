@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+*{
+   
+}
+
+.content{
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.sedans, .luxury, .suvs{
+    height: 400px;
+    width: 300px;
+}
+    
+    
+
+h1{
+    color: white;
+    margin-top: 70px;
+}
+
+p{
+    color: white;
+    margin-top: 30px;  
+}
+
+button{
+    width: 115px;
+    height: 40px;
+   margin-left: 50px;
+   margin-bottom: 0px;
+   border-radius: 20px;
+   border: white;
+}
+.link1{
+    color: #E38523;
+}
+.link2{
+    color: #026973;
+}
+.link3{
+    color: #013F3C;
+}
+a{
+    text-decoration: none;
+}
+
+
+.item{
+    width: 200px;
+    height: 70%;
+    margin-left: 30px;
+}
+
+.sedans{
+    background-color: #E38523;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.suvs{
+    background-color: #026973;
+}
+
+.luxury{
+    background-color: #013F3C;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
